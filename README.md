@@ -1,1 +1,1 @@
-# mongo-news-scraper
+# Mongo News Scraper
