@@ -4,32 +4,21 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack --mode development",
-    "build": "webpack --mode production"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/blaws006/mongo-news-scraper.git"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/blaws006/mongo-news-scraper/issues"
   },
   "homepage": "https://github.com/blaws006/mongo-news-scraper#readme",
-  "devDependencies": {
-    "@babel/core": "^7.4.0",
-    "@babel/preset-env": "^7.4.2",
-    "babel-core": "^6.26.3",
-    "babel-loader": "^8.0.5",
-    "babel-preset-env": "^1.7.0",
-    "css-loader": "^2.1.1",
-    "extract-text-webpack-plugin": "^3.0.2",
-    "html-webpack-plugin": "^3.2.0",
-    "mini-css-extract-plugin": "^0.5.0",
-    "style-loader": "^0.23.1",
-    "webpack": "^4.29.6",
-    "webpack-cli": "^3.3.0",
-    "webpack-node-externals": "^1.7.2"
+  "dependencies": {
+    "express": "^4.16.4",
+    "hbs": "^4.0.3"
   }
 }
